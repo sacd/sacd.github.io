@@ -46,6 +46,12 @@ body * {
  }.count{
 }.count *{
     margin: 0 10px;
+}.item-name,.item-descr{
+        white-space: nowrap;
+    overflow: hidden;
+    /* padding: 5px; */
+    text-overflow: ellipsis;
+    width: 260px;
 }
 .inc,.dec{
     color: red;
