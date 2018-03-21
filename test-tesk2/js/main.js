@@ -54,12 +54,17 @@ $(document).ready(function(){
 	})
 
 
-// если высота окна контента меньше минимальной высоты блока слева
+// если высота окна контента меньше минимальной высоты блока слева, время для плитки
+
+ setTimeout(function () {
 	var left_height = $('.left-block').height();
 	var content_height = $('.content-block').height();
 	// console.log(left_height+','+content_height+','+$(window).height())
 	if (left_height>content_height) $('.left-block').addClass('not-fx');
 	else  $('.left-block').removeClass('not-fx');
+
+                    }, 5000);
+             
 	
 });
 
