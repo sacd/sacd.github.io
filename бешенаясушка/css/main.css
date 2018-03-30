@@ -283,8 +283,8 @@ strong{
     margin-top: 36px;
 }.video-form {
     width: 83%;
-    margin: 164px auto;
-    height: 43em;
+      margin: 127px auto;
+    height: 753px;
 }.trigger-img {
     border-radius: 50%;
     background: #ffc70b;
@@ -350,4 +350,7 @@ footer .form-bg {
 }.btn-item a:hover {
     -webkit-box-shadow: 0 12px 58px 6px rgba(0, 0, 0, 0.31);
             box-shadow: 0 12px 58px 6px rgba(0, 0, 0, 0.31);
+}
+#video .form-bg{
+    left: -25px;
 }
