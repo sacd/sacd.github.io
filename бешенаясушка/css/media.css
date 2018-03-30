@@ -512,7 +512,9 @@
         border-right: 81vw solid white;
     }section#main {
       overflow: hidden;
-    }
+    }#video .form-bg {
+    left: -4px;
+}
 }
 
 
@@ -520,6 +522,9 @@
     .box-man {
     position: absolute;
     left: -145px;}
+    #video .form-bg {
+    left: -19px;
+}
     .box-man img {
         width: 460px;
         position: absolute;
@@ -917,7 +922,7 @@
         background: none;
         background-size: cover;
         padding-top: 18px;
-        padding-right: 32px;
+        padding-right: 0;
      margin: 0 auto;
         padding-bottom: 21px;
         width: auto;
@@ -1013,5 +1018,7 @@
         /* white-space: pre-line; */
     }   footer {
         overflow-x: hidden;
-    }
+    }#video .form-bg {
+    left: 0;
+}
 }
