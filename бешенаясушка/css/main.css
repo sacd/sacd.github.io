@@ -148,6 +148,7 @@ strong{
     display: block;
     border-radius: 28px;
     height: 121px;
+      border-width: thin;
 }button {
     background: #25941a;
     display: block;
