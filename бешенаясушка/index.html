@@ -41,13 +41,17 @@
 			<img src="img/man-min.png" alt="">
 		</div>
 		
-			<form action="">
+		<form class="form_top" name="subscribe" id="subscribe" action="https://list.mailigen.com/subscribe/post" method="post">
 			<h2>ВСТУПИ И ПОЛУЧИ
 				<strong>ПЯТЬ ДЕЙСТВИТЕЛЬНО ВКУСНЫХ</strong>
 				<small>РЕЦЕПТОВ С КАЛЬМАРАМИ</small>
 			</h2>
-				<input type="text">
-				<button>ВСТУПИТЬ</button>
+			 <input type="hidden" name="subscribe" value="true">
+			    <input type="hidden" name="ln" value="ru">
+			    <input type="hidden" name="u" value="4d49748e7e3256f0ffb1a1726451a901">
+			    <input type="hidden" name="id" value="05cbfc8e">
+				<input id="email" type="email" name="merge[0]" placeholder="Введите e-mail" required="">
+				<button onclick="yaCounter48050636.reachGoal('button'); return true;" class="header__btn btn btn-green" type="submit">ВСТУПИТЬ</button>
 			</form>
 		</div>
 	</div>
